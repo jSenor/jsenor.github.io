@@ -18,3 +18,5 @@ gulp.task("watch", function(){
 	gulp.watch("src/stylesheets/*.scss", ["styles"]);
 	gulp.watch("src/javascripts/*.js", ["javascript"]);
 });
+
+gulp.task("default", ["watch"]);
