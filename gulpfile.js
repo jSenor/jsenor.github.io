@@ -5,8 +5,15 @@ var sass = require("gulp-sass");
 gulp.task("styles", function(){
 	gulp.src("src/stylesheets/styles.scss")
 		.pipe(sass())
+		.on("error", onError)
 		.pipe(autoprefixer())
+		.on("error", onError)
 		.pipe(gulp.dest("build/stylesheets"));
+
+	function onError(error){
+		console.log(error);
+		this.emit("end");
+	}
 });
 
 gulp.task("javascript", function(){
