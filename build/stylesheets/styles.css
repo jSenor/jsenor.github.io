@@ -85,7 +85,17 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
   /*align-items: center;*/ }
+  .works-wrapper .fa {
+    position: absolute;
+    top: 50%;
+    font-size: 2em;
+    /*transform: translateY(-50%);*/ }
+  .works-wrapper .fa-angle-left {
+    left: 20px; }
+  .works-wrapper .fa-angle-right {
+    right: 20px; }
   .works-wrapper .works {
     display: -webkit-box;
     display: -ms-flexbox;

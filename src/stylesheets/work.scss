@@ -3,7 +3,23 @@
 	min-height: 80vh;
 	display: flex;
 	justify-content: center;
+	position: relative;
 	/*align-items: center;*/
+
+	.fa{
+		position: absolute;
+		top:50%;
+		font-size: 2em;
+		/*transform: translateY(-50%);*/
+	}
+
+	.fa-angle-left{
+		left: 20px;
+	}
+
+	.fa-angle-right{
+		right: 20px;
+	}
 
 	.works{
 		display: flex;
