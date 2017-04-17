@@ -150,9 +150,10 @@
     cursor: pointer; }
     .socials .social:hover {
       background-color: #24292e;
-      color: white; }
+      color: white;
+      border: 2px solid #cccccc; }
     .socials .social:hover > a {
-      color: white; }
+      color: #cccccc; }
     .socials .social a {
       color: black; }
     .socials .social i {
@@ -161,3 +162,36 @@
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%); }
+
+.about-wrapper {
+  background-color: #24292e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.about {
+  max-width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+  .about .title {
+    /*border: 1px solid black;*/
+    font-size: 2em;
+    margin-top: 60px;
+    color: white; }
+  .about .about-content {
+    color: #cccccc;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    line-height: 30px; }

@@ -20,10 +20,11 @@
 		&:hover{
 			background-color: $accent-color;
 			color: white;
+			border:2px solid darken(white, 20%);
 		}
 
 		&:hover > a{
-			color: white;
+			color: darken(white, 20%);
 		}
 
 		a{
