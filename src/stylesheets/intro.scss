@@ -33,5 +33,22 @@
 			}
 		}
 	}
+
+
+	@media screen and (max-width: $second-break){
+		.intro{
+
+			span{
+				margin-top: 20px;
+				margin-bottom: 20px;
+				display: block;
+				/*border: 1px solid black;*/
+			}
+
+			.invisible{
+				display: none;
+			}
+		}
+	}
 }
 

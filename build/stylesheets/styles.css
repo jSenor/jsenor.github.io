@@ -124,6 +124,14 @@
     .intro-wrapper .intro .what-i-do {
       font-size: 0.8em;
       line-height: 20px; } }
+  @media screen and (max-width: 800px) {
+    .intro-wrapper .intro span {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: block;
+      /*border: 1px solid black;*/ }
+    .intro-wrapper .intro .invisible {
+      display: none; } }
 
 .works-wrapper {
   /*border: 1px solid black;*/

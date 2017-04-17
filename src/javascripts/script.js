@@ -1,7 +1,7 @@
 var nameIntro = document.querySelector(".name-intro");
 console.log(nameIntro);
 Typed.new(".intro", {
-	strings: ["<div class=\"name-intro\">Hi there, am <b>Wisdom Ogwu</b></div><div class=\"what-i-do\">I am a <b>Front End Designer</b>, <b>Back End Developer</b> and this is <b>My Portfolio</b></div>"],
+	strings: ["<div class=\"name-intro\">Hi there, I am <span><b>Wisdom Ogwu</b></span></div><div class=\"what-i-do\"><span>I am a </span><b><span>Front End Designer<span></b><span class=\"invisible\">,</span> <span><b>Back End Developer</b></span> and this is <span><b>My Portfolio</b></span></div>"],
 	typeSpeed: 5
 });
 
