@@ -4,6 +4,9 @@
   font-family: Rubik, sans-serif;
   box-sizing: border-box; }
 
+@media screen and (min-width: 1500px) {
+  font-size: 20px; }
+
 .typed-cursor {
   display: none; }
 
@@ -219,7 +222,7 @@
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%); }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .socials {
       top: 90%;
       display: -webkit-box;
