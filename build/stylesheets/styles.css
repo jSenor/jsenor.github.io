@@ -29,6 +29,10 @@
         -ms-flex: 1 1;
             flex: 1 1;
     padding-left: 20px; }
+  .navigation .open-nav {
+    display: none; }
+  .navigation .close-nav {
+    display: none; }
   .navigation ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -36,7 +40,7 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end; }
-    .navigation ul li {
+    .navigation ul a {
       list-style-type: none;
       text-align: center;
       -webkit-box-flex: 0;
@@ -47,9 +51,50 @@
       -ms-flex-preferred-size: 100px;
           flex-basis: 100px;
       cursor: pointer;
-      font-size: 0.8em; }
-      .navigation ul li:hover {
+      font-size: 0.8em;
+      text-decoration: none;
+      color: white; }
+      .navigation ul a li {
+        width: 100%;
+        height: 100%; }
+      .navigation ul a:hover {
         background-color: #3a434b; }
+  @media screen and (max-width: 1000px) {
+    .navigation .title {
+      /*border: 1px solid black;*/ }
+    .navigation .open-nav {
+      /*border: 1px solid black;*/
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      cursor: pointer; }
+    .navigation .close-nav {
+      /*border: 1px solid black;*/
+      display: none;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      cursor: pointer; }
+    .navigation ul {
+      display: none;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 50px;
+      background-color: #24292e; }
+      .navigation ul li {
+        /*border: 1px solid black;*/ }
+        .navigation ul li:hover {
+          background-color: #3a434b; } }
 
 .intro-wrapper {
   min-height: calc(100vh - 50px);
@@ -67,7 +112,7 @@
   color: white; }
   .intro-wrapper .intro {
     /*border: 1px solid black;*/
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     max-width: 80%; }
     .intro-wrapper .intro .name-intro {
@@ -75,6 +120,10 @@
       font-size: 1em; }
     .intro-wrapper .intro b {
       color: #3a434b; }
+  @media screen and (max-width: 1000px) {
+    .intro-wrapper .intro .what-i-do {
+      font-size: 0.8em;
+      line-height: 20px; } }
 
 .works-wrapper {
   /*border: 1px solid black;*/

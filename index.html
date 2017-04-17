@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Wisdom Ogwu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="build/stylesheets/styles.css" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 	<link href="build/stylesheets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -13,10 +14,12 @@
 		<div class="nav-wrapper">
 			<section class="navigation">
 				<div class="title">Wisdom Ogwu</div>
+				<div class="open-nav"><i class="fa fa-bars"></i></div>
+				<div class="close-nav">X</div>
 				<ul>
-					<li>My Works</li>
-					<li>About Me</li>
-					<li>Contact</li>
+					<a href="#work"><li>My Works</li></a>
+					<a href="#about"><li>About Me</li></a>
+					<a href="#contact"><li>Contact</li></a>
 				</ul>
 			</section>
 		</div>
@@ -24,13 +27,13 @@
 		<!-- Short introduction and media links -->
 		<div class="intro-wrapper">	
 			<section class="intro">
-				<div class="name-intro">Hi there, am <b>Wisdom Ogwu</b></div>
-				<div class="what-i-do">I am a <b>Front End Designer</b>, <b>Back End Developer</b> and this is my portfolio</div>
+				<div class="name-intro">Hi there, I am <b>Wisdom Ogwu</b></div>
+				<div class="what-i-do">I am a <b>Front End Designer</b>, <b>Back End Developer</b> and this is <b>My Portfolio</b></div>
 			</section>
 		</div>
 
 		<!-- Some of my works -->
-		<div class="works-wrapper">
+		<div class="works-wrapper" id="work">
 			<i class="fa fa-angle-left"></i>
 			<i class="fa fa-angle-right"></i>
 			<section class="works">
@@ -49,7 +52,7 @@
 		</div>
 
 		<!-- full about -->
-		<div class="about-wrapper">
+		<div class="about-wrapper" id="about">
 			<div class="about">
 				<div class="title">About</div>
 				<div class="image"></div>
@@ -60,7 +63,7 @@
 		</div>
 
 		<!-- Reach me -->
-		<div class="contact-wrapper">
+		<div class="contact-wrapper" id="contact">
 			<div class="contact">
 				<div class="title">Get in touch</div>
 				<div class="content">
