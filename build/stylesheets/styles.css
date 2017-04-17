@@ -219,6 +219,20 @@
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%); }
+  @media screen and (max-width: 800px) {
+    .socials {
+      top: 90%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      /*border: 1px solid black;*/
+      width: 100%;
+      left: 0px;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .socials .social {
+        margin: 0 10px; } }
 
 .about-wrapper {
   background-color: #24292e;
