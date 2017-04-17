@@ -72,7 +72,7 @@
     max-width: 80%; }
     .intro-wrapper .intro .name-intro {
       margin-bottom: 20px;
-      font-size: 2em; }
+      font-size: 1em; }
     .intro-wrapper .intro b {
       color: #3a434b; }
 
@@ -237,3 +237,9 @@
     color: #333333; }
     .contact .content b {
       color: #3a434b; }
+
+.footer {
+  padding: 10px;
+  font-size: 0.9em;
+  text-align: center;
+  color: #24292e; }
